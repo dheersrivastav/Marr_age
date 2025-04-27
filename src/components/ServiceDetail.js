@@ -13,7 +13,7 @@ const ServiceDetail = () => {
   const [isFavorite, setIsFavorite] = useState(false);
   const [currentService, setCurrentService] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [showVideo, setShowVideo] = useState(false);
+  // const [showVideo, setShowVideo] = useState(false);
   const videoRef = useRef(null);
   
   // Toggle favorite status

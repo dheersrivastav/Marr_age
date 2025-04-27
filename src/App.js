@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { 
-  FaWhatsapp, 
+  // FaWhatsapp, 
   FaFacebookF, 
   FaInstagram, 
   FaPinterestP, 
@@ -27,7 +27,7 @@ function App() {
 
   // Wedding video URLs
   const heroVideoUrl = "https://cdn.coverr.co/videos/coverr-wedding-venue-decoration-3219/1080p.mp4";
- const middleVideoUrl = "https://youtu.be/JNKZN8uq1H8";
+//  const middleVideoUrl = "https://youtu.be/JNKZN8uq1H8";
 
   // Fallback image if video can't load
   const fallbackImageUrl = "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80";
