@@ -14,7 +14,7 @@ import { FaWhatsapp } from 'react-icons/fa';
  * @param {string} props.className - Optional additional classes
  */
 const WhatsAppButton = ({ 
-  phoneNumber = "7318444187", 
+  phoneNumber = "7081599511", 
   message = "Hello! I'm interested in your services.", 
   position = "bottom-right",
   className = ""

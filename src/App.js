@@ -76,7 +76,7 @@ function App() {
 
         {/* WhatsApp Floating Button for quick contact */}
         <WhatsAppButton 
-          phoneNumber="7318444187"
+          phoneNumber="7081599511"
           message="Hello! I'm interested in discussing my event planning needs. Please contact me."
           position="bottom-right"
         />
@@ -127,7 +127,7 @@ function App() {
           <Route path="/" element={
             <>
               {/* Hero Section with Video Background */}
-              <section id="home" className="hero">
+              <section id="home" className="hero ">
                 {/* Video Background Component */}
                 <VideoBackground videoUrl={heroVideoUrl} fallbackImageUrl={fallbackImageUrl} />
 
